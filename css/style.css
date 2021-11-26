@@ -9,10 +9,19 @@ body {
     height: 100vh;
 }
 
-div {
+#first {
     background-color: red;
     color: white;
     font-size: 32px;
     text-align: center;
     font-weight: bold;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
+
+.wrapper:nth-of-type(2n) {
+    background-color: pink;
+    color: purple;
 }
